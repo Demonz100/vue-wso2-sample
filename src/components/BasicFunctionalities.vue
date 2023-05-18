@@ -88,7 +88,7 @@ const getDataLayer = async () => {
   await auth()
     ?.getDataLayer()
     .then((value) => {
-      console.log('IDP Access Token: ', value)
+      console.log('Data Layer: ', value)
     })
 }
 

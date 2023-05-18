@@ -15,7 +15,8 @@ export const useAuthStore = defineStore('auth', {
   },
 
   getters: {
-    getIsAuth: (state) => state.isAuth
+    getIsAuth: (state) => state.isAuth,
+    getIsLoading: (state) => state.isLoading
   },
   
   actions: {

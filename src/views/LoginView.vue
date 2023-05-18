@@ -2,9 +2,6 @@
   <div class="home">
     <div class="home">
       <button class="btn" @click="handleLogin()">Login</button>
-      <!-- <button class="btn" @click="handleLogout()">Logout</button>
-      <button class="btn">Get API data</button>
-      <button class="btn" @click="checkForAuth()">Check for auth</button> -->
     </div>
   </div>
 </template>
